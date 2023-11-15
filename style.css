@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Fira+Sans&family=Mukta&family=Open+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&family=Signika&family=Staatliches&family=Tajawal&family=Viga&display=swap');
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.type-1{
+    color: #191919;
+}
+.type-1 p{
+    font-size: 16px;
+}
+.type-1 h1{
+    font-size: 24px;
+}
+.type-2{
+    color: #323232;
+}
+.type-2 p{
+    font-size: 18px;
+}
+.type-2 h1{
+    font-size: 28px;
+}
+.type-3{
+    color: #4C4C4C;
+}
+.type-3 p{
+    font-size: 20px;
+}
+.type-3 h1{
+    font-size: 30px;
+}
+.type-4{
+    color: #666666;
+}
+.type-4 p{
+    font-size: 20px;
+}
+.type-4 h1{
+    font-size: 30px;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+.fira-sans{
+    font-family: 'Fira Sans', sans-serif;
+}
+.quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+.signika{
+    font-family: 'Signika', sans-serif;
+}
+.staatliches{
+    font-family: 'Staatliches', cursive;
+}
+.tajawal{
+    font-family: 'Tajawal', sans-serif;
+}
+.viga{
+    font-family: 'Viga', sans-serif;
+}
+.assistant{
+    font-family: 'Assistant', sans-serif;
+}
+.mukta{
+    font-family: 'Mukta', sans-serif;
+}
+.georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.font-specifier{
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.info{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+@media(max-width: 478px){
+    .container{
+        max-width: 400px;
+    }
+    .type-1 p{
+        font-size: 12px;
+    }
+    .type-1 h1{
+        font-size: 20px;
+    }
+    .type-2 p{
+        font-size: 14px;
+    }
+    .type-2 h1{
+        font-size: 22px;
+    }
+    .type-3 p{
+        font-size: 16px;
+    }
+    .type-3 h1{
+        font-size: 24px;
+    }
+}
