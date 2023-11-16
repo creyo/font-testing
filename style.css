@@ -34,6 +34,9 @@ body{
 .type-3 p, .type-3 ul li, .type-3 ol li{
     font-size: 20px;
 }
+.type-3 ol li, .type-3 ul li, .type-4 ul li, .type-4 ol li{
+    margin-left: -15px;
+}
 .type-3 h1{
     font-size: 30px;
 }
@@ -169,6 +172,9 @@ body{
 
     .inter ul li{
         margin-left: -15px;
+    }
+    .type-3 ol li, .type-3 ul li, .type-4 ul li, .type-4 ol li{
+        margin-left: -22px;
     }
 
 }
