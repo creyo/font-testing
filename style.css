@@ -138,7 +138,7 @@ body{
 
 @media(max-width: 478px){
     .container{
-        max-width: 400px;
+        max-width: 95%;
     }
     .type-1 p{
         font-size: 12px;
@@ -164,6 +164,10 @@ body{
     }
     .inter h1, h2{
         font-size: 32px;
+    }
+
+    .inter ul li{
+        margin-left: -15px;
     }
 
 }
