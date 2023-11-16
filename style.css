@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Fira+Sans&family=Mukta&family=Open+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&family=Signika&family=Staatliches&family=Tajawal&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face {
+    font-family: "Factor";
+    src: url("/TRIALFactorA-Regular-BF6476bc3091c00.otf") format("truetype");
+  }
 body{
    margin: 0;
    padding: 0;
@@ -82,6 +87,42 @@ body{
 .georgia{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+.inter h1, h2{
+    font-size: 42px;
+    font-family: 'Factor', sans-serif !important;
+}
+.inter h3{
+    font-size: 32px;
+}
+.inter p{
+    font-size: 20.4px;
+    color: #191919;
+    line-height: 30px;
+    font-weight: 300;
+}
+.inter p span{
+    color: #ff642d;
+}
+.inter ul li{
+    margin-bottom: 15px;
+    font-size: 20.4px;
+    color: #191919;
+    font-weight: 300;
+    line-height: 30px;
+}
+.inter p a,  .inter ul a{
+    color: #ff642d;
+    text-decoration: none;
+}
+.inter img{
+    width: 90%;
+    height: 90%;
+}
+
+
 .font-specifier{
     color: black;
     background-color: yellow;
@@ -117,4 +158,12 @@ body{
     .type-3 h1{
         font-size: 24px;
     }
+    .inter p, .inter ul li{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .inter h1, h2{
+        font-size: 32px;
+    }
+
 }
